@@ -17,9 +17,9 @@ def catch_all(path):
     msg_resp = browser + " \n"
 
     if path != '':
-        msg_resp = timenow + " Request path: /" + path + " and reply from " + container_msg + "\n"
+        msg_resp = timenow + " Request x path: /" + path + " and reply from " + container_msg + "\n"
         return msg_resp
-    msg_resp = timenow + " Reply from " + container_msg + "\n"
+    msg_resp = timenow + " Reply from x " + container_msg + "\n"
     return msg_resp
 
 
